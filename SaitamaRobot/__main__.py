@@ -78,7 +78,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/690/690356.jpg"
+SAITAMA_IMG = "https://1.bp.blogspot.com/-Kf3WuzD_PcI/YAvscOvnbfI/AAAAAAAAA0c/ZwFYQJLysLEqQQ-eZAIUXLAerArlPFFKACLcBGAsYHQ/s2048/PicsArt_01-23-01.52.45.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -207,15 +207,15 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Girls_and_Boys_Chatting"),
+                             url=f"https://t.me/ZoTechGroup"),
                          InlineKeyboardButton(
                              text="👸 Owner",
-                             url="https://t.me/GarimaQueen")
+                             url="https://t.me/ZauteaKm")
                      ],
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
+                             url="https://github.com/zauteakm/MissMizo2bot")
                      ]]))
     else:
         update.effective_message.reply_text(
